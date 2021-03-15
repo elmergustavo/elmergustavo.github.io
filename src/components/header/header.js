@@ -155,7 +155,7 @@ const Header = ({ getObserver, onThemeChange }) => {
         </button>
         <ul className={`header__right--navigator ${isActiveMobile ? 'header__right--navigator--active' : ''}`}>
           <li className={isPage('about-me')}><Link to="/#/about-me" alt="About me section" onClick={() => changePage('about-me')}>
-            About me
+            Sobre mí
           </Link></li>
           <li className={isPage('projects')}><Link to="/#/projects" alt="My projects section" onClick={() => changePage('projects')}>
             Projects
@@ -164,7 +164,7 @@ const Header = ({ getObserver, onThemeChange }) => {
             Skills
           </Link></li>
           <li className={isPage('contact')}><Link to="/#/contact" alt="My contact section" onClick={() => changePage('contact')}>
-            Contact
+            Contacto
           </Link></li>
           <div className="theme-switch">
             <span>Light/Dark Mode</span>

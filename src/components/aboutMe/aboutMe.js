@@ -37,10 +37,11 @@ const AboutMe = ({ observer }) => {
           Hola me llamo Gustavo, soy estudiante de la universidad Rafael Landívar
         </p>
         <p>
-          Besides, i've made works as freelancer with mobile apps or web apps, and bots for Discord communities.
+          Inicié mi aprendizaje como programador en 2017. Tengo un especial interés en Desarrolo Web dominando mayormente Front-End, pero también puedo desempeñarme en Back-end. 
+          Actualmente he creado varios proyectos como hobbie y también como interés en aportar soluciones a problemas de la vida cotidiana-moderna, adquiriendo conocimientos en el camino.
         </p>
         <p>
-          "The life is an adventure without end."
+          "Nunca pares de aprender"
         </p>
         <div className="aboutMe__right--country">
           <div className="aboutMe__right--country__flag" />
