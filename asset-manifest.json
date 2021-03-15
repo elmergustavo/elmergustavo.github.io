@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.8ab17530.chunk.css",
+    "main.js": "/portafolio/static/js/main.ded29879.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.ded29879.chunk.js.map",
+    "runtime-main.js": "/portafolio/static/js/runtime-main.e72b1297.js",
+    "runtime-main.js.map": "/portafolio/static/js/runtime-main.e72b1297.js.map",
+    "static/js/2.b9740b14.chunk.js": "/portafolio/static/js/2.b9740b14.chunk.js",
+    "static/js/2.b9740b14.chunk.js.map": "/portafolio/static/js/2.b9740b14.chunk.js.map",
+    "static/js/3.ba27cced.chunk.js": "/portafolio/static/js/3.ba27cced.chunk.js",
+    "static/js/3.ba27cced.chunk.js.map": "/portafolio/static/js/3.ba27cced.chunk.js.map",
+    "index.html": "/portafolio/index.html",
+    "static/css/main.8ab17530.chunk.css.map": "/portafolio/static/css/main.8ab17530.chunk.css.map",
+    "static/js/2.b9740b14.chunk.js.LICENSE.txt": "/portafolio/static/js/2.b9740b14.chunk.js.LICENSE.txt",
+    "static/media/general.scss": "/portafolio/static/media/Montserrat-SemiBold.fa8441f3.ttf",
+    "static/media/amva_web.png": "/portafolio/static/media/amva_web.8f3e15e8.png",
+    "static/media/aboutMe.scss": "/portafolio/static/media/avatar.a10b1169.png",
+    "static/media/becca_lyria.png": "/portafolio/static/media/becca_lyria.4ec56a41.png",
+    "static/media/bootstrap.png": "/portafolio/static/media/bootstrap.3e909e87.png",
+    "static/media/deno.png": "/portafolio/static/media/deno.cd07b042.png",
+    "static/media/fazt_community_landing_page.jpeg": "/portafolio/static/media/fazt_community_landing_page.cfe94449.jpeg",
+    "static/media/faztbot.png": "/portafolio/static/media/faztbot.7875374f.png",
+    "static/media/github_presente_meeting.png": "/portafolio/static/media/github_presente_meeting.57d2c511.png",
+    "static/media/jquery.png": "/portafolio/static/media/jquery.83f94826.png",
+    "static/media/nextchat_profile.png": "/portafolio/static/media/nextchat_profile.bb69892d.png",
+    "static/media/nextmusic_concept.png": "/portafolio/static/media/nextmusic_concept.c89ac07b.png",
+    "static/media/openstreetmap.png": "/portafolio/static/media/openstreetmap.7784571b.png",
+    "static/media/portfolio.png": "/portafolio/static/media/portfolio.37f9df21.png",
+    "static/media/reactjs.png": "/portafolio/static/media/reactjs.daf2eecb.png",
+    "static/media/rust_notes_cli.png": "/portafolio/static/media/rust_notes_cli.8f326a35.png",
+    "static/media/socketio.svg": "/portafolio/static/media/socketio.aa27363b.svg",
+    "static/media/spooked_cms.png": "/portafolio/static/media/spooked_cms.ba7974f1.png",
+    "static/media/typescript.svg": "/portafolio/static/media/typescript.a6305a73.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e72b1297.js",
+    "static/js/2.b9740b14.chunk.js",
+    "static/css/main.8ab17530.chunk.css",
+    "static/js/main.ded29879.chunk.js"
+  ]
+}
