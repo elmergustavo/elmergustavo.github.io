@@ -1,0 +1,78 @@
+@import './variables.scss';
+
+/* Load Fonts */
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Light.ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-SemiBold.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url('./assets/fonts/Montserrat-Bold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: $colorLight;
+  transition: .4s color ease-in-out;
+
+  &[data-theme="dark"] {
+    color: $colorDark;
+  }
+}
+
+body {
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: black;
+  transition: .4s background-color ease-in-out;
+
+  &[data-theme="dark"] {
+    background-color: $backgroundDark;
+    color: $colorDark;
+  }
+}
+
+section {
+  padding: 0 $paddingLeftRight;
+
+  @media (max-width: 991.98px) {
+    padding: 0 $paddingLeftRightTablet;
+  }
+
+  @media (max-width: 575.98px) {
+    padding: 0 $paddingLeftRightMobile;
+  }
+}
+
+.container {
+  width: 100%;
+}

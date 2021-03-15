@@ -1,0 +1,213 @@
+@import '../../variables.scss';
+
+.header {
+  $self: &;
+
+  width: 100%;
+  height: $headerSize;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: -#{$headerSize};
+  left: 0;
+  z-index: 100;
+  background-color: $backgroundLight;
+  box-shadow: 0 0 2px 0 rgba(black, .2);
+  transition: .4s top ease-in-out, .4s background-color ease-in-out;
+
+  @media (max-width: 575.98px) {
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: .5rem 0;
+  }
+
+  &[data-theme="dark"] {
+    background-color: $backgroundDark;
+    box-shadow: 0 0 2px 0 rgba(white, .2);
+  }
+
+  &--active {
+    top: 0;
+  }
+  &__left, &__right {
+    max-width: 60%;
+    padding: 0 $paddingLeftRight;
+
+    @media (max-width: 991.98px) {
+      padding: 0 $paddingLeftRightTablet;
+    }
+
+    @media (max-width: 575.98px) {
+      padding: 0 $paddingLeftRightMobile;
+      max-width: 100%;
+    }
+  }
+  &__left {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+
+    &--icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 4px;
+      margin-right: 1rem;
+      background: {
+        image: url('../../assets/icon.png');
+        repeat: no-repeat;
+        size: cover;
+        position: center;
+      };
+    }
+    &--title {
+      font-weight: 500;
+      letter-spacing: .02em;
+      transition: .4s color ease-in-out;
+    }
+  }
+  &__right {
+    &--toggle {
+      background-color: transparent;
+      display: none;
+      border: none;
+      font-size: 1.3rem;
+      padding-top: 4px;
+      cursor: pointer;
+
+      @media (max-width: 575.98px) {
+        display: block;
+      }
+
+      &[data-theme="dark"] {
+        color: $backgroundLight;
+      }
+
+      & > svg {
+        width: 1em;
+        height: 1em;
+      }
+    }
+    &--navigator {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: flex-end;
+      list-style: none;
+
+      @media (max-width: 575.98px) {
+        display: block;
+        transition: .4s top ease-in, .4s background-color ease-in-out;
+        position: absolute;
+        left: 0;
+        top: -500%;
+        width: 100%;
+        background-color: white;
+        height: auto;
+        box-shadow: 0 0 2px 0 rgba(black, .2);
+
+        &[data-theme="dark"] {
+          background-color: $backgroundDark;
+          box-shadow: 0 0 2px 0 rgba(white, .2);
+        }
+        &--active {
+          top: 100%;
+        }
+      }
+
+      & > li {
+        &:last-child > a {
+          padding-right: 0;
+        }
+        &.active > a {
+          color: $primaryLight;
+          font-weight: 500;
+
+          &[data-theme="dark"] {
+            color: $primaryDark;
+          }
+        }
+        & > a {
+          display: block;
+          padding: .5rem 1rem;
+          font-weight: 400;
+          letter-spacing: .02em;
+          transition: .2s transform ease-in-out, .4s color ease-in-out;
+          color: inherit;
+
+          @media (max-width: 991.98px) {
+            padding: .5rem;
+            font-size: .9rem;
+          }
+
+          @media (max-width: 575.98px) {
+            padding: $paddingLeftRightMobile;
+          }
+
+          &:hover {
+            transform: scale3d(.9, .9, .9);
+          }
+        }
+      }
+      & > .theme-switch {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+
+        @media (max-width: 991.98px) {
+          font-size: .9rem;
+        }
+
+        @media (max-width: 575.98px) {
+          padding: $paddingLeftRightMobile;
+          padding-top: 0;
+        }
+
+        & > span {
+          transition: .4s color ease-in-out;
+          letter-spacing: .02em;
+          font-weight: 400;
+        }
+        & > input {
+          $padding: .5rem;
+          $size: 15px;
+
+          display: none;
+
+          &:checked + label {
+            background-color: $primaryDark;
+
+            &::before {
+              left: calc(#{$size} + #{$padding} * 2);
+            }
+          }
+          & + label {
+            display: block;
+            width: calc(#{$size} * 2 + #{$padding} * 3);
+            height: calc(#{$size} + #{$padding} * 2);
+            background-color: $primaryLight;
+            margin-left: .75rem;
+            border-radius: 30px;
+            position: relative;
+            cursor: pointer;
+            transition: .4s background-color ease-in-out;
+
+            &::before {
+              content: "";
+              position: absolute;
+              top: $padding;
+              left: $padding;
+              border-radius: 100%;
+              background-color: white;
+              width: $size;
+              height: $size;
+              transition: .4s left ease-in-out;
+            }
+          }
+        }
+      }
+    }
+  }
+}

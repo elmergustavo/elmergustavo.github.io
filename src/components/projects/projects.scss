@@ -1,0 +1,108 @@
+@import '../../variables.scss';
+
+.projects {
+  height: auto;
+  padding: $paddingLeftRight;
+  border-bottom: 1px dashed silver;
+  transition: .4s border-color ease-in-out;
+
+  @media (max-width: 767.98px) {
+    padding: $paddingLeftRightTablet;
+    border-top: 1px dashed silver;
+    margin-top: $paddingLeftRight;
+  }
+  
+  @media (max-width: 575.98px) {
+    padding: $paddingLeftRightMobile;
+    padding-bottom: $paddingLeftRight;
+    margin-top: $paddingLeftRightTablet;
+  }
+
+  &[data-theme="dark"] {
+    border-color: $colorDark;
+  }
+  &__title {
+    text-align: center;
+    font-weight: 500;
+    color: $primaryLight;
+    letter-spacing: .02em;
+    font-size: 2rem;
+
+    &[data-theme="dark"] {
+      color: $primaryDark;
+    }
+  }
+  &__filter {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: $paddingLeftRight;
+
+    @media (max-width: 575.98px) {
+      margin-top: $paddingLeftRightMobile;
+    }
+
+    &--select {
+      & > span {
+        font: {
+          size: 1.15rem;
+          weight: 500;
+        }
+        letter-spacing: .02em;
+        transition: .4s color ease-in-out;
+      }
+      & > select {
+        margin-left: 1rem;
+        border: 1px solid silver;
+        border-radius: 4px;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+    margin-top: $paddingLeftRight;
+
+    @media (max-width: 1199.98px) {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: $paddingLeftRightTablet;
+    }
+
+    @media (max-width: 575.98px) {
+      grid-template-columns: 1fr;
+      grid-gap: $paddingLeftRight;
+      margin-top: $paddingLeftRightMobile;
+    }
+  }
+  &__more {
+    display: block;
+    margin: 0 auto;
+    margin-top: $paddingLeftRight;
+    cursor: pointer;
+    background-color: $primaryLight;
+    color: white;
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font: {
+      weight: 500;
+      size: 1rem;
+    };
+    letter-spacing: .02em;
+    transition: .2s transform ease-in-out, .4s background-color ease-in-out;
+
+    &[data-theme="dark"] {
+      background-color: $primaryDark;
+    }
+
+    &:hover {
+      transform: scale3d(.9, .9, .9);
+    }
+  }
+}

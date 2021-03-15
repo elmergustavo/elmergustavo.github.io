@@ -1,0 +1,42 @@
+@import '../../variables.scss';
+
+.contact {
+  width: 100%;
+  padding: $paddingLeftRightMobile $paddingLeftRight;
+
+  @media (max-width: 991.98px) {
+    padding: $paddingLeftRightMobile $paddingLeftRightTablet;
+  }
+
+  @media (max-width: 575.98px) {
+    padding: $paddingLeftRightMobile;
+  }
+
+  &__links {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+
+    & > li {
+      margin-left: 2rem;
+
+      &:nth-child(1) {
+        margin-left: 0;
+      }
+      & > a {
+        font-size: 2rem;
+
+        &:hover > svg {
+          transform: scale3d(.9, .9, .9);
+        }
+        & > svg {
+          width: 1em;
+          height: 1em;
+          transition: .2s transform ease-in-out;
+        }
+      }
+    }
+  }
+}

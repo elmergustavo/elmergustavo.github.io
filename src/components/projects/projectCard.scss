@@ -1,0 +1,88 @@
+@import '../../variables.scss';
+
+.project-card {
+  &__image {
+    width: 100%;
+    height: 240px;
+    background: {
+      size: cover;
+      position: center;
+      repeat: no-repeat;
+      color: silver;
+    }
+    border-radius: 4px;
+    position: relative;
+
+    &--date {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(black, .15);
+      color: white;
+      padding: .5rem 1rem;
+      border-radius: 4px 0 4px 0;
+      font: {
+        weight: 500;
+        size: .9em;
+      };
+      letter-spacing: .02em;
+    }
+  }
+  &__info {
+    margin-top: .75rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+    &--category {
+      color: $primaryLight;
+      border: none;
+      background-color: transparent;
+      font: {
+        weight: 600;
+        size: .8em;
+      };
+      letter-spacing: .02em;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: .4s color ease-in-out;
+
+      &[data-theme="dark"] {
+        color: $primaryDark;
+      }
+    }
+    &--name {
+      font: {
+        weight: 500;
+        size: 1.25rem;
+      };
+      letter-spacing: .02em;
+      text-align: center;
+      margin-top: .25rem;
+    }
+    &--description {
+      margin-top: .5rem;
+      letter-spacing: .02em;
+      text-align: center;
+    }
+    &--view-more {
+      border: 0;
+      background-color: $primaryLight;
+      color: white;
+      font: {
+        weight: 500;
+        size: .85rem;
+      };
+      padding: .25rem .75rem;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: .75rem;
+      transition: .4s background-color ease-in-out;
+
+      &[data-theme="dark"] {
+        background-color: $primaryDark;
+      }
+    }
+  }
+}
