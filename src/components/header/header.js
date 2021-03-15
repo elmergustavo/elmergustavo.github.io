@@ -144,7 +144,7 @@ const Header = ({ getObserver, onThemeChange }) => {
       <div className="header__left">
         <div className="header__left--icon" />
         <div className="header__left--title">
-          Daniel Solarte Chaverra
+		Elmer Gustavo Pú
         </div>
       </div>
       <div className="header__right">
