@@ -27,7 +27,7 @@ const AboutMe = ({ observer }) => {
         <div className="aboutMe__left--content">
           <div className="aboutMe__left--content__shape">
             <div className="aboutMe__left--content__shape--avatar" />
-            <div className="aboutMe__left--content__shape--name">Daniel Solarte Chaverra</div>
+            <div className="aboutMe__left--content__shape--name">Elmer Gustavo Pú</div>
           </div>
         </div>
       </div>
