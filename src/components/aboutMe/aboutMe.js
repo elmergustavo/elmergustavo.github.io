@@ -44,7 +44,7 @@ const AboutMe = ({ observer }) => {
         </p>
         <div className="aboutMe__right--country">
           <div className="aboutMe__right--country__flag" />
-          <span>Medellín, Colombia</span>
+          <span>Escuintla, Guatemala</span>
         </div>
       </div>
     </section>
