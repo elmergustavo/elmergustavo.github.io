@@ -15,7 +15,7 @@ const projects = [
     description: 'Este fue uno de mis primeros proyecto en el mundo del desarrollo web.',
     date: '10 de Enero del 2021',
     links: {
-      YouTube: 'https://elmergustavo.github.io/',
+      Web: 'https://elmergustavo.github.io/',
     },
     tags: [
       'RustLang',
@@ -45,14 +45,13 @@ const projects = [
     ],
   },
   {
-    image: require('../../assets/projects/becca_lyria.png').default,
+    image: require('../../assets/projects/canal.PNG').default,
     category: 'BackEnd',
-    name: 'Becca-Lyria (Discord Bot)',
-    description: 'I make a refactor to the Discord bot of nhcarrigan.',
+    name: 'Canal de Youtube',
+    description: 'En mi canal subo contenido de programación para principiantes como C++, Java',
     date: 'October of 2020',
     links: {
-      'GitHub (Bot)': 'https://github.com/nhcarrigan/Becca-Lyria',
-      'GitHub (Documentation)': 'https://github.com/nhcarrigan/Becca-Lyria-documentation',
+      'YouTube': 'https://www.youtube.com/channel/UCzoC8FXE62AInx6V4bxrxBQ',
     },
     tags: [
       'BackEnd',
