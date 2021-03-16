@@ -46,7 +46,7 @@ const projects = [
   },
   {
     image: require('../../assets/projects/canal.PNG').default,
-    category: 'BackEnd',
+    category: 'FullStack - Contribution',
     name: 'Canal de Youtube',
     description: 'En mi canal subo contenido de programación para principiantes como C++, Java',
     date: 'October of 2020',
@@ -90,6 +90,23 @@ const projects = [
     date: 'August of 2020',
     links: {
       'GitHub': 'https://github.com/elmergustavo/prueba',
+    },
+    tags: [
+      'BackEnd',
+      'RustLang',
+      'Interpreter',
+      'Typechecker',
+      'Parser',
+    ],
+  },
+  {
+    image: require('../../assets/projects/gusanito.PNG').default,
+    category: 'BackEnd',
+    name: 'Juego Snake',
+    description: 'Este juego fue implementado en java. en el curso de estructura de datos I',
+    date: 'Marzo del 2020',
+    links: {
+      'GitHub': 'https://github.com/elmergustavo/Gusanito-SO',
     },
     tags: [
       'BackEnd',
