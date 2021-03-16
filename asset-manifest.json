@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.86aca378.chunk.css",
-    "main.js": "/portafolio/static/js/main.2754fc0d.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.2754fc0d.chunk.js.map",
-    "runtime-main.js": "/portafolio/static/js/runtime-main.c1d4a1a0.js",
-    "runtime-main.js.map": "/portafolio/static/js/runtime-main.c1d4a1a0.js.map",
+    "main.js": "/portafolio/static/js/main.699d8c69.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.699d8c69.chunk.js.map",
+    "runtime-main.js": "/portafolio/static/js/runtime-main.a1cff9e0.js",
+    "runtime-main.js.map": "/portafolio/static/js/runtime-main.a1cff9e0.js.map",
     "static/js/2.b9740b14.chunk.js": "/portafolio/static/js/2.b9740b14.chunk.js",
     "static/js/2.b9740b14.chunk.js.map": "/portafolio/static/js/2.b9740b14.chunk.js.map",
-    "static/js/3.d726d742.chunk.js": "/portafolio/static/js/3.d726d742.chunk.js",
-    "static/js/3.d726d742.chunk.js.map": "/portafolio/static/js/3.d726d742.chunk.js.map",
+    "static/js/3.f8dad37a.chunk.js": "/portafolio/static/js/3.f8dad37a.chunk.js",
+    "static/js/3.f8dad37a.chunk.js.map": "/portafolio/static/js/3.f8dad37a.chunk.js.map",
     "index.html": "/portafolio/index.html",
     "static/css/main.86aca378.chunk.css.map": "/portafolio/static/css/main.86aca378.chunk.css.map",
     "static/js/2.b9740b14.chunk.js.LICENSE.txt": "/portafolio/static/js/2.b9740b14.chunk.js.LICENSE.txt",
@@ -25,7 +25,6 @@
     "static/media/java.png": "/portafolio/static/media/java.5d5cffa0.png",
     "static/media/jquery.png": "/portafolio/static/media/jquery.83f94826.png",
     "static/media/mariadb.png": "/portafolio/static/media/mariadb.92f19a57.png",
-    "static/media/nextchat_profile.png": "/portafolio/static/media/nextchat_profile.bb69892d.png",
     "static/media/nextmusic_concept.png": "/portafolio/static/media/nextmusic_concept.c89ac07b.png",
     "static/media/photoshop.png": "/portafolio/static/media/photoshop.ab8c39a6.png",
     "static/media/platzi.PNG": "/portafolio/static/media/platzi.ad4438ea.PNG",
@@ -41,9 +40,9 @@
     "static/media/xd.png": "/portafolio/static/media/xd.a34f2814.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c1d4a1a0.js",
+    "static/js/runtime-main.a1cff9e0.js",
     "static/js/2.b9740b14.chunk.js",
     "static/css/main.86aca378.chunk.css",
-    "static/js/main.2754fc0d.chunk.js"
+    "static/js/main.699d8c69.chunk.js"
   ]
 }
