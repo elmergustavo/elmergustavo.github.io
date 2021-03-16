@@ -22,7 +22,7 @@ const skills = [
   },
   {
     name: 'Adobe Ilustreitor',
-    image: require('../../assets/skills/ilustreitor.jpg').default,
+    image: require('../../assets/skills/ilustreitor.png').default,
     description: 'Imagenes con vectores.',
     year: 2019,
   },
