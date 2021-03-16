@@ -63,9 +63,9 @@ const skills = [
     year: 2019,
   },
   {
-    name: 'SocketIO',
-    image: require('../../assets/skills/socketio.svg').default,
-    description: 'Web apps in real time like a chat.',
+    name: 'Python',
+    image: require('../../assets/skills/python.png').default,
+    description: 'Desarrollador Python.',
     year: 2020,
   },
   {

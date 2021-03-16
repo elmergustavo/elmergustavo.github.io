@@ -83,13 +83,13 @@ const projects = [
     ],
   },
   {
-    image: require('../../assets/projects/sflynlang_icon.png').default,
+    image: require('../../assets/projects/tienda.PNG').default,
     category: 'BackEnd',
-    name: 'Sflynlang',
-    description: 'High-Level programming language, the primary interpreter is written in Rustlang.',
+    name: 'Página web, Tienda de Libros',
+    description: 'Página web, para compra y venta de Libros.',
     date: 'August of 2020',
     links: {
-      'GitHub (Interpreter)': 'https://github.com/sflynlang/sflynlang-interpreter',
+      'GitHub': 'https://github.com/elmergustavo/prueba',
     },
     tags: [
       'BackEnd',
