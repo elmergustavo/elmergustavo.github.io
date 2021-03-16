@@ -9,13 +9,13 @@
 
 const projects = [
   {
-    image: require('../../assets/projects/github_presente_meeting.png').default,
+    image: require('../../assets/projects/el burralon.PNG').default,
     category: 'Meetings',
-    name: 'GitHub Presente (Spanish)',
-    description: 'I talk about "Why is Rustlang getting a bigger community?" in Spanish.',
-    date: '17 of November of 2020',
+    name: 'Página web, restaurante el burralon.',
+    description: 'Este fue uno de mis primeros proyecto en el mundo del desarrollo web.',
+    date: '10 de Enero del 2021',
     links: {
-      YouTube: 'https://youtu.be/l8bLDR89qHA?t=4893',
+      YouTube: 'https://elmergustavo.github.io/',
     },
     tags: [
       'RustLang',
