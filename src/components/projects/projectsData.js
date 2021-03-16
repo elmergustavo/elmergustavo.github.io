@@ -23,14 +23,13 @@ const projects = [
     ],
   },
   {
-    image: require('../../assets/projects/amva_web.png').default,
+    image: require('../../assets/projects/platzi.PNG').default,
     category: 'FullStack - Contribution',
     name: 'A.M.V.A. App (API & Web)',
-    description: 'I add the animations of the webpage using react-spring and the views styles.',
+    description: 'Soy estudiante de Platzi',
     date: 'November of 2020',
     links: {
-      GitHub: 'https://github.com/danielsolartech/amva-app',
-      Web: 'https:/amva40.github.io',
+      Web: 'https://platzi.com/p/elmer-gustavo/',
     },
     tags: [
       'BackEnd',
