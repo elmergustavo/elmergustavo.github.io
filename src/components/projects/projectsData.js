@@ -167,6 +167,8 @@ const projects = [
       'Figma',
     ],
   },
+
+
   {
     image: require('../../assets/projects/fazt_community_landing_page.jpeg').default,
     category: 'Design',
@@ -183,32 +185,7 @@ const projects = [
       'HTML5',
     ],
   },
-  {
-    image: require('../../assets/projects/nextchat_profile.png').default,
-    category: 'FullStack',
-    name: 'NextChat V1',
-    description: 'Messages social network.<br><br>- You can send and receive messages.<br>- Verify your account using your e-mail.<br>- Send friend requests.',
-    date: 'June of 2020',
-    links: {
-      'GitHub (API)': 'https://github.com/danielsolartech/nextchat-api',
-      'GitHub (WEB)': 'https://github.com/danielsolartech/nextchat-web',
-    },
-    tags: [
-      'BackEnd',
-      'NodeJS',
-      'JavaScript',
-      'TypeScript',
-      'MySQL',
-      'TypeORM',
-      'Socket.IO',
-      'SendGrid',
-      'FrontEnd',
-      'ReactJS',
-      'Redux',
-      'Webpack',
-      'Babel',
-    ],
-  },
+  
 ];
 
 export default projects;
