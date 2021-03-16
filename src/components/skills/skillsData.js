@@ -9,33 +9,33 @@
 
 const skills = [
   {
-    name: 'Open Street Map',
-    image: require('../../assets/skills/openstreetmap.png').default,
-    description: 'API with Node.JS, Open Layers and Deck.gl.',
+    name: 'Java Develop',
+    image: require('../../assets/skills/java.png').default,
+    description: 'Desarrollador Java',
+    year: 2018,
+  },
+  {
+    name: 'Photoshop',
+    image: require('../../assets/skills/photoshop.png').default,
+    description: 'Diseño en fotografías.',
+    year: 2018,
+  },
+  {
+    name: 'Adobe Ilustreitor',
+    image: require('../../assets/skills/ilustreitor.jpg').default,
+    description: 'Imagenes con vectores.',
+    year: 2019,
+  },
+  {
+    name: 'Adobe XD',
+    image: require('../../assets/skills/xd.png').default,
+    description: 'Implementación de bocetos.',
     year: 2020,
   },
   {
-    name: 'NeoVim',
-    image: require('../../assets/skills/nvim.png').default,
-    description: 'Code editor.',
-    year: 2020,
-  },
-  {
-    name: 'Rustlang',
-    image: require('../../assets/skills/rust.png').default,
-    description: 'Traits, structs, functions and pointers.',
-    year: 2020,
-  },
-  {
-    name: 'Golang',
-    image: require('../../assets/skills/go.png').default,
-    description: 'Structs, pointers, slices and maps.',
-    year: 2020,
-  },
-  {
-    name: 'Heroku',
-    image: require('../../assets/skills/heroku.png').default,
-    description: 'Deploying Discord bots and websites.',
+    name: 'MariaDB',
+    image: require('../../assets/skills/mariadb.png').default,
+    description: 'Bases de datos Relacionales.',
     year: 2020,
   },
   {
