@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.86aca378.chunk.css",
-    "main.js": "/portafolio/static/js/main.0be1fa90.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.0be1fa90.chunk.js.map",
+    "main.js": "/portafolio/static/js/main.5d16f7db.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.5d16f7db.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.e72b1297.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.e72b1297.js.map",
     "static/js/2.b9740b14.chunk.js": "/portafolio/static/js/2.b9740b14.chunk.js",
@@ -13,8 +13,8 @@
     "static/css/main.86aca378.chunk.css.map": "/portafolio/static/css/main.86aca378.chunk.css.map",
     "static/js/2.b9740b14.chunk.js.LICENSE.txt": "/portafolio/static/js/2.b9740b14.chunk.js.LICENSE.txt",
     "static/media/general.scss": "/portafolio/static/media/Montserrat-SemiBold.fa8441f3.ttf",
-    "static/media/becca_lyria.png": "/portafolio/static/media/becca_lyria.4ec56a41.png",
     "static/media/bootstrap.png": "/portafolio/static/media/bootstrap.3e909e87.png",
+    "static/media/canal.PNG": "/portafolio/static/media/canal.30ae5cfa.PNG",
     "static/media/deno.png": "/portafolio/static/media/deno.cd07b042.png",
     "static/media/el burralon.PNG": "/portafolio/static/media/el burralon.0c0d9683.PNG",
     "static/media/fazt_community_landing_page.jpeg": "/portafolio/static/media/fazt_community_landing_page.cfe94449.jpeg",
@@ -37,6 +37,6 @@
     "static/js/runtime-main.e72b1297.js",
     "static/js/2.b9740b14.chunk.js",
     "static/css/main.86aca378.chunk.css",
-    "static/js/main.0be1fa90.chunk.js"
+    "static/js/main.5d16f7db.chunk.js"
   ]
 }
