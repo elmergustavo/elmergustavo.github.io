@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.86aca378.chunk.css",
-    "main.js": "/portafolio/static/js/main.5d16f7db.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.5d16f7db.chunk.js.map",
+    "main.js": "/portafolio/static/js/main.5b6ad913.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.5b6ad913.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.e72b1297.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.e72b1297.js.map",
     "static/js/2.b9740b14.chunk.js": "/portafolio/static/js/2.b9740b14.chunk.js",
@@ -20,10 +20,13 @@
     "static/media/fazt_community_landing_page.jpeg": "/portafolio/static/media/fazt_community_landing_page.cfe94449.jpeg",
     "static/media/faztbot.png": "/portafolio/static/media/faztbot.7875374f.png",
     "static/media/aboutMe.scss": "/portafolio/static/media/gustavo.d3bf29c2.jpg",
+    "static/media/ilustreitor.png": "/portafolio/static/media/ilustreitor.474c83bf.png",
+    "static/media/java.png": "/portafolio/static/media/java.5d5cffa0.png",
     "static/media/jquery.png": "/portafolio/static/media/jquery.83f94826.png",
+    "static/media/mariadb.png": "/portafolio/static/media/mariadb.92f19a57.png",
     "static/media/nextchat_profile.png": "/portafolio/static/media/nextchat_profile.bb69892d.png",
     "static/media/nextmusic_concept.png": "/portafolio/static/media/nextmusic_concept.c89ac07b.png",
-    "static/media/openstreetmap.png": "/portafolio/static/media/openstreetmap.7784571b.png",
+    "static/media/photoshop.png": "/portafolio/static/media/photoshop.ab8c39a6.png",
     "static/media/platzi.PNG": "/portafolio/static/media/platzi.ad4438ea.PNG",
     "static/media/portafolio.PNG": "/portafolio/static/media/portafolio.04fe0bec.PNG",
     "static/media/reactjs.png": "/portafolio/static/media/reactjs.daf2eecb.png",
@@ -31,12 +34,13 @@
     "static/media/socketio.svg": "/portafolio/static/media/socketio.aa27363b.svg",
     "static/media/spooked_cms.png": "/portafolio/static/media/spooked_cms.ba7974f1.png",
     "static/media/header.scss": "/portafolio/static/media/tavcode.6ce74d87.jpg",
-    "static/media/typescript.svg": "/portafolio/static/media/typescript.a6305a73.svg"
+    "static/media/typescript.svg": "/portafolio/static/media/typescript.a6305a73.svg",
+    "static/media/xd.png": "/portafolio/static/media/xd.a34f2814.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e72b1297.js",
     "static/js/2.b9740b14.chunk.js",
     "static/css/main.86aca378.chunk.css",
-    "static/js/main.5d16f7db.chunk.js"
+    "static/js/main.5b6ad913.chunk.js"
   ]
 }
