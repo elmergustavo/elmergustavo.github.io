@@ -184,24 +184,6 @@ const projects = [
     ],
   },
   {
-    image: require('../../assets/projects/faztbot.png').default,
-    category: 'BackEnd - Contribution',
-    name: 'Fazt-bot',
-    description: 'Multipurpose bot for Fazt Tech\'s Discord server.',
-    date: 'June of 2020',
-    links: {
-      GitHub: 'https://github.com/faztcommunity/fazt-bot',
-    },
-    tags: [
-      'BackEnd',
-      'NodeJS',
-      'JavaScript',
-      'TypeScript',
-      'DiscordJS',
-      'Contribution',
-    ],
-  },
-  {
     image: require('../../assets/projects/nextchat_profile.png').default,
     category: 'FullStack',
     name: 'NextChat V1',
