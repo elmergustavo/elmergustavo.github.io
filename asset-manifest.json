@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.86aca378.chunk.css",
-    "main.js": "/portafolio/static/js/main.3d987471.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.3d987471.chunk.js.map",
+    "main.js": "/portafolio/static/js/main.a7972e79.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.a7972e79.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.e72b1297.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.e72b1297.js.map",
     "static/js/2.b9740b14.chunk.js": "/portafolio/static/js/2.b9740b14.chunk.js",
@@ -31,12 +31,13 @@
     "static/media/photoshop.png": "/portafolio/static/media/photoshop.ab8c39a6.png",
     "static/media/platzi.PNG": "/portafolio/static/media/platzi.ad4438ea.PNG",
     "static/media/portafolio.PNG": "/portafolio/static/media/portafolio.04fe0bec.PNG",
+    "static/media/python.png": "/portafolio/static/media/python.2971f8ca.png",
     "static/media/reactjs.png": "/portafolio/static/media/reactjs.daf2eecb.png",
     "static/media/ruby.png": "/portafolio/static/media/ruby.e1092af4.png",
     "static/media/rust_notes_cli.png": "/portafolio/static/media/rust_notes_cli.8f326a35.png",
-    "static/media/socketio.svg": "/portafolio/static/media/socketio.aa27363b.svg",
     "static/media/spooked_cms.png": "/portafolio/static/media/spooked_cms.ba7974f1.png",
     "static/media/header.scss": "/portafolio/static/media/tavcode.6ce74d87.jpg",
+    "static/media/tienda.PNG": "/portafolio/static/media/tienda.75dd7898.PNG",
     "static/media/typescript.svg": "/portafolio/static/media/typescript.a6305a73.svg",
     "static/media/xd.png": "/portafolio/static/media/xd.a34f2814.png"
   },
@@ -44,6 +45,6 @@
     "static/js/runtime-main.e72b1297.js",
     "static/js/2.b9740b14.chunk.js",
     "static/css/main.86aca378.chunk.css",
-    "static/js/main.3d987471.chunk.js"
+    "static/js/main.a7972e79.chunk.js"
   ]
 }
