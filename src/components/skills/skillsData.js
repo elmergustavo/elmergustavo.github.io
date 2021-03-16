@@ -87,18 +87,6 @@ const skills = [
     year: 2019,
   },
   {
-    name: 'SASS',
-    image: require('../../assets/skills/sass.png').default,
-    description: 'Mixins, variables, includes and imports.',
-    year: 2019
-  },
-  {
-    name: 'Redux',
-    image: require('../../assets/skills/redux.png').default,
-    description: 'Global states with React.',
-    year: 2019,
-  },
-  {
     name: 'ReactJS',
     image: require('../../assets/skills/reactjs.png').default,
     description: 'Hooks, components, states and routes.',
