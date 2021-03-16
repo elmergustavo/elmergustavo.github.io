@@ -25,8 +25,8 @@ const projects = [
   {
     image: require('../../assets/projects/platzi.PNG').default,
     category: 'FullStack - Contribution',
-    name: 'A.M.V.A. App (API & Web)',
-    description: 'Soy estudiante de Platzi',
+    name: 'Soy Estudiante de Platzi',
+    description: 'Es una plataforma muy interesante donde se aprende todo sobre tecnología',
     date: 'November of 2020',
     links: {
       Web: 'https://platzi.com/p/elmer-gustavo/',
@@ -65,13 +65,13 @@ const projects = [
     ],
   },
   {
-    image: require('../../assets/projects/portfolio.png').default,
+    image: require('../../assets/projects/portafolio.PNG').default,
     category: 'FrontEnd',
-    name: 'Portfolio V1',
-    description: 'Personal portfolio.',
-    date: 'September of 2020',
+    name: 'Portafolio Personal',
+    description: 'Implementación de portafolio personal',
+    date: 'Enero of 2021',
     links: {
-      GitHub: 'https://github.com/danielsolartech/danielsolartech.github.io'
+      GitHub: 'https://github.com/elmergustavo/portafolio'
     },
     tags: [
       'FrontEnd',
