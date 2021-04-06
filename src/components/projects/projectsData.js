@@ -8,9 +8,28 @@
  */
 
 const projects = [
+
+  {
+    image: require('../../assets/projects/programa.PNG').default,
+    category: 'BackEnd',
+    name: 'Barberos Dormilones',
+    description: 'soluciones de uso de semaforos, implementado en el lenguaje java',
+    date: 'Abril del 2021',
+    links: {
+      'GitHub': 'https://github.com/elmergustavo/Proyecto_SO2',
+    },
+    tags: [
+      'BackEnd',
+      'RustLang',
+      'Interpreter',
+      'Typechecker',
+      'Parser',
+    ],
+  },
+
   {
     image: require('../../assets/projects/el burralon.PNG').default,
-    category: 'Meetings',
+    category: 'FrondEnd',
     name: 'Página web, restaurante el burralon.',
     description: 'Este fue uno de mis primeros proyecto en el mundo del desarrollo web.',
     date: '10 de Enero del 2021',
@@ -107,24 +126,6 @@ const projects = [
     date: 'Marzo del 2020',
     links: {
       'GitHub': 'https://github.com/elmergustavo/Gusanito-SO',
-    },
-    tags: [
-      'BackEnd',
-      'RustLang',
-      'Interpreter',
-      'Typechecker',
-      'Parser',
-    ],
-  },
-
-  {
-    image: require('../../assets/projects/programa.PNG').default,
-    category: 'BackEnd',
-    name: 'Barberos Dormilones',
-    description: 'soluciones de uso de semaforos, implementado en el lenguaje java',
-    date: 'Abril del 2021',
-    links: {
-      'GitHub': 'https://github.com/elmergustavo/Proyecto_SO2',
     },
     tags: [
       'BackEnd',
