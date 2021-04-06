@@ -116,6 +116,25 @@ const projects = [
       'Parser',
     ],
   },
+
+  {
+    image: require('../../assets/projects/programa.PNG').default,
+    category: 'BackEnd',
+    name: 'Barberos Dormilones',
+    description: 'soluciones de uso de semaforos, implementado en el lenguaje java',
+    date: 'Abril del 2021',
+    links: {
+      'GitHub': 'https://github.com/elmergustavo/Proyecto_SO2',
+    },
+    tags: [
+      'BackEnd',
+      'RustLang',
+      'Interpreter',
+      'Typechecker',
+      'Parser',
+    ],
+  },
+
   
 ];
 
