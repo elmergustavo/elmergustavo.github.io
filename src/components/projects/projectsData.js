@@ -9,6 +9,24 @@
 
 const projects = [
 
+{
+    image: require('../../assets/projects/Panel Principal.PNG').default,
+    category: 'BackEnd',
+    name: 'Punto venta Restaurante',
+    description: 'Punto de venta en analisis de datos, proporcionando mejoras',
+    date: 'Abril del 2021',
+    links: {
+      'GitHub': 'https://github.com/elmergustavo/Proyecto-Analisis',
+    },
+    tags: [
+      'BackEnd',
+      'RustLang',
+      'Interpreter',
+      'Typechecker',
+      'Parser',
+    ],
+  },
+
   {
     image: require('../../assets/projects/programa.PNG').default,
     category: 'BackEnd',
