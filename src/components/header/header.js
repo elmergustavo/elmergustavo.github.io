@@ -1,11 +1,3 @@
-/**
- * Copyright (c) Daniel Solarte Chaverra
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @format
- */
 
 import React from 'react';
 import { Link, useHistory, useLocation } from 'react-router-dom';
@@ -144,7 +136,7 @@ const Header = ({ getObserver, onThemeChange }) => {
       <div className="header__left">
         <div className="header__left--icon" />
         <div className="header__left--title">
-		Elmer Gustavo Pú
+	      	Elmer Gustavo Pú
         </div>
       </div>
       <div className="header__right">
@@ -158,16 +150,16 @@ const Header = ({ getObserver, onThemeChange }) => {
             Sobre mí
           </Link></li>
           <li className={isPage('projects')}><Link to="/#/projects" alt="My projects section" onClick={() => changePage('projects')}>
-            Projects
+          Proyectos
           </Link></li>
           <li className={isPage('skills')}><Link to="/#/skills" alt="My skills section" onClick={() => changePage('skills')}>
-            Skills
+            Habilidades
           </Link></li>
           <li className={isPage('contact')}><Link to="/#/contact" alt="My contact section" onClick={() => changePage('contact')}>
             Contacto
           </Link></li>
           <div className="theme-switch">
-            <span>Light/Dark Mode</span>
+            <span>Modo claro/oscuro</span>
             <input type="checkbox" id="themeInput" checked={theme === 'dark'} onChange={(e) => setTheme(e.target.checked ? 'dark' : 'light')} />
             <label htmlFor="themeInput"></label>
           </div>

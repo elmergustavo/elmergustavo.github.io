@@ -1,12 +1,3 @@
-/**
- * Copyright (c) Daniel Solarte Chaverra
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @format
- */
-
 import React from 'react';
 import './aboutMe.scss';
 
@@ -32,7 +23,7 @@ const AboutMe = ({ observer }) => {
         </div>
       </div>
       <div className="aboutMe__right">
-        <h1>About me</h1>
+        <h1>Sobre Mí</h1>
         <p>
           Hola me llamo Gustavo, soy estudiante de la universidad Rafael Landívar
         </p>

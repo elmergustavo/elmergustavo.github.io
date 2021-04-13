@@ -5,6 +5,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Header from './components/header/header';
 import Home from './pages/home';
 
+
+// hola mundo como esta en el dia de hoy xd
 const Router = () => {
   const [theme, setTheme] = React.useState('light');
   let currentObserver = null;
