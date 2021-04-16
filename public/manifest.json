@@ -1,6 +1,6 @@
 {
-  "short_name": "Daniel Solarte Chaverra || Portfolio",
-  "name": "Daniel Solarte Chaverra || Portfolio",
+  "short_name": "Elmer Gustavo Pú || Portfolio",
+  "name": "Elmer Gustavo Pú || Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "avatar.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "avatar.png",
       "type": "image/png",
       "sizes": "512x512"
     }
