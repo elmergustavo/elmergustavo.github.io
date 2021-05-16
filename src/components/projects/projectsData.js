@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Daniel Solarte Chaverra
+ * Copyright (c) Elmer Gustavo Pú
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -8,6 +8,28 @@
  */
 
 const projects = [
+
+// nuevo proyecto Mayo API DE POKEMON 2021
+{
+  image: require('../../assets/projects/2.PNG').default,
+  category: 'BackEnd',
+  name: 'API de Pokemón',
+  description: 'Conectado con la api oficial de pokemon, utilizando ReactJs',
+  date: 'Mayo del 2021',
+  links: {
+    'Code': 'https://github.com/elmergustavo/PokemonApi',
+    'Web': 'https://elmergustavo.github.io/PokemonApi/',
+  },
+  tags: [
+    'FrontEnd',
+    'Javascript',
+    'Css',
+    'HTML5',
+    'ClasOfclan',
+  ],
+},
+
+
  // nuevo proyecto Marzo 2021
   {
     image: require('../../assets/projects/1.PNG').default,
