@@ -8,6 +8,27 @@
  */
 
 const projects = [
+ // nuevo proyecto Marzo 2021
+  {
+    image: require('../../assets/projects/1.PNG').default,
+    category: 'FrontEnd',
+    name: 'Carrusel Clash of Clan',
+    description: 'Uno de los juegos muy populares, lo cree como pasatiempo, fue creado con HTML, CSS Y javascript',
+    date: 'Marzo del 2021',
+    links: {
+      'Code': 'https://github.com/TavCode/Clash-of-clan',
+      'Web': 'https://tavcode.github.io/Clash-of-clan/',
+    },
+    tags: [
+      'FrontEnd',
+      'Javascript',
+      'Css',
+      'HTML5',
+      'ClasOfclan',
+    ],
+  },
+
+
 
 {
     image: require('../../assets/projects/Panel Principal.PNG').default,
@@ -47,7 +68,7 @@ const projects = [
 
   {
     image: require('../../assets/projects/el burralon.PNG').default,
-    category: 'FrondEnd',
+    category: 'FrontEnd',
     name: 'Página web, restaurante el burralon.',
     description: 'Este fue uno de mis primeros proyecto en el mundo del desarrollo web.',
     date: '10 de Enero del 2021',
