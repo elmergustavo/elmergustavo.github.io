@@ -14,7 +14,7 @@ const projects = [
   image: require('../../assets/projects/3.PNG').default,
   category: 'FrontEnd',
   name: 'Pagina pizza',
-  description: 'Conectado con la api oficial de pokemon, utilizando ReactJs',
+  description: 'Pagina web de una pizzería, desarrollado con HTML5, CSS Y Javascript',
   date: 'Mayo del 2021',
   links: {
     'Code': 'https://github.com/TavCode/Pizza-Dev',
@@ -25,7 +25,7 @@ const projects = [
     'Javascript',
     'Css',
     'HTML5',
-    'ClasOfclan',
+    'Pizza',
   ],
 },
 
@@ -46,10 +46,29 @@ const projects = [
     'Javascript',
     'Css',
     'HTML5',
-    'ClasOfclan',
+    'ApiPokemon',
   ],
 },
 
+// nuevo proyecto Abril cumple Dana 2021
+  {
+    image: require('../../assets/projects/4.PNG').default,
+    category: 'FrontEnd',
+    name: 'Happy birthday',
+    description: 'Pequeño detalle, de cumpleaños con animaciones e implementado un carrusel animado,He usado HTML simple, CSS y JavaScript con GSAP para animaciones.',
+    date: 'Abril del 2021',
+    links: {
+      'Code': 'https://github.com/elmergustavo/happy-Danita',
+      'Web': 'https://elmergustavo.github.io/happy-Danita/index.html',
+    },
+    tags: [
+      'FrontEnd',
+      'Javascript',
+      'Css',
+      'HTML5',
+      'Gsap',
+    ],
+  },
 
  // nuevo proyecto Marzo 2021
   {
