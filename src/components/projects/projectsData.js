@@ -9,6 +9,27 @@
 
 const projects = [
 
+// nuevo proyecto Mayo pizza 2021
+{
+  image: require('../../assets/projects/3.PNG').default,
+  category: 'FrontEnd',
+  name: 'Pagina pizza',
+  description: 'Conectado con la api oficial de pokemon, utilizando ReactJs',
+  date: 'Mayo del 2021',
+  links: {
+    'Code': 'https://github.com/TavCode/Pizza-Dev',
+    'Web': 'https://tavcode.github.io/Pizza-Dev/',
+  },
+  tags: [
+    'FrontEnd',
+    'Javascript',
+    'Css',
+    'HTML5',
+    'ClasOfclan',
+  ],
+},
+
+
 // nuevo proyecto Mayo API DE POKEMON 2021
 {
   image: require('../../assets/projects/2.PNG').default,
