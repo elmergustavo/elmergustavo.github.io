@@ -9,27 +9,8 @@
 
 const projects = [
 
-  // nuevo proyecto Mayo Citas en react 2021
-{
-  image: require('../../assets/projects/3.PNG').default,
-  category: '',
-  name: 'Pagina pizza',
-  description: 'Pagina web de una pizzería, desarrollado con HTML5, CSS Y Javascript',
-  date: 'Mayo del 2021',
-  links: {
-    'Code': 'https://github.com/TavCode/Pizza-Dev',
-    'Web': 'https://tavcode.github.io/Pizza-Dev/',
-  },
-  tags: [
-    'FrontEnd',
-    'Javascript',
-    'Css',
-    'HTML5',
-    'Pizza',
-  ],
-},
+// nuevo proyecto Mayo Citas en react 2021
 
-// nuevo proyecto Mayo pizza 2021
 {
   image: require('../../assets/projects/citas.PNG').default,
   category: 'BackEnd',
@@ -49,6 +30,26 @@ const projects = [
   ],
 },
 
+
+  // nuevo proyecto Mayo pizza 2021
+{
+  image: require('../../assets/projects/3.PNG').default,
+  category: 'FrontEnd',
+  name: 'Pagina pizza',
+  description: 'Pagina web de una pizzería, desarrollado con HTML5, CSS Y Javascript',
+  date: 'Mayo del 2021',
+  links: {
+    'Code': 'https://github.com/TavCode/Pizza-Dev',
+    'Web': 'https://tavcode.github.io/Pizza-Dev/',
+  },
+  tags: [
+    'FrontEnd',
+    'Javascript',
+    'Css',
+    'HTML5',
+    'Pizza',
+  ],
+},
 
 // nuevo proyecto Mayo API DE POKEMON 2021
 {
