@@ -11,7 +11,7 @@ const projects = [
 
   // nuevo proyecto Mayo Citas en react 2021
 {
-  image: require('../../assets/projects/citas.PNG').default,
+  image: require('../../assets/projects/3.PNG').default,
   category: '',
   name: 'Pagina pizza',
   description: 'Pagina web de una pizzería, desarrollado con HTML5, CSS Y Javascript',
@@ -31,7 +31,7 @@ const projects = [
 
 // nuevo proyecto Mayo pizza 2021
 {
-  image: require('../../assets/projects/3.PNG').default,
+  image: require('../../assets/projects/citas.PNG').default,
   category: 'BackEnd',
   name: 'Formulario de citas',
   description: 'proyecto en React con formularios y el uso de localStorage.',
