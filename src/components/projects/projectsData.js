@@ -9,10 +9,10 @@
 
 const projects = [
 
-// nuevo proyecto Mayo pizza 2021
+  // nuevo proyecto Mayo Citas en react 2021
 {
-  image: require('../../assets/projects/3.PNG').default,
-  category: 'FrontEnd',
+  image: require('../../assets/projects/citas.PNG').default,
+  category: '',
   name: 'Pagina pizza',
   description: 'Pagina web de una pizzería, desarrollado con HTML5, CSS Y Javascript',
   date: 'Mayo del 2021',
@@ -26,6 +26,26 @@ const projects = [
     'Css',
     'HTML5',
     'Pizza',
+  ],
+},
+
+// nuevo proyecto Mayo pizza 2021
+{
+  image: require('../../assets/projects/3.PNG').default,
+  category: 'BackEnd',
+  name: 'Formulario de citas',
+  description: 'proyecto en React con formularios y el uso de localStorage.',
+  date: 'Mayo del 2021',
+  links: {
+    'Code': 'https://github.com/elmergustavo/reactFormCitas',
+    'Web': 'https://elmergustavo.github.io/reactFormCitas/',
+  },
+  tags: [
+    'BackEnd',
+    'Javascript',
+    'Css',
+    'HTML5',
+    'React',
   ],
 },
 
