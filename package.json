@@ -1,5 +1,5 @@
 {
-  "homepage":"https://elmergustavo.github.io/",
+  "homepage": "https://elmergustavo.github.io/",
   "name": "portfolio",
   "version": "1.0.0",
   "private": true,
@@ -7,8 +7,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build",
     "start": "react-scripts start",
     "test": "react-scripts test --watchAll=false"
   },

@@ -9,6 +9,31 @@
 
 const projects = [
 
+// nuevo proyecto Julio Sistema punto de venta Analisis y diseño II
+
+{
+  image: require('../../assets/projects/puntoVenta.PNG').default,
+  category: 'BackEnd',
+  name: 'Sistema punto de Venta',
+  description: 'Sistema Restaurante desarrollado en Java, Aplicando Patrones de diseños',
+  date: 'Julio del 2021',
+  links: {
+    'GitHub': 'https://github.com/elmergustavo/SistemaPuntoVenta',
+    //'Web': 'https://elmergustavo.github.io/reactFormCitas/',
+  },
+  tags: [
+    'BackEnd',
+    'Java',
+    'design_patterns',
+    'SOLID',
+    'MVC',
+  ],
+},
+
+
+
+
+
 // nuevo proyecto Mayo Citas en react 2021
 
 {
@@ -156,7 +181,9 @@ const projects = [
     description: 'Este fue uno de mis primeros proyecto en el mundo del desarrollo web.',
     date: '10 de Enero del 2021',
     links: {
-      Web: 'https://elmergustavo.github.io/',
+      GitHub: 'https://github.com/elmergustavo/burralon',
+      Web: 'https://elmergustavo.github.io/burralon/',
+      
     },
     tags: [
       'RustLang',
