@@ -8,7 +8,7 @@ const AboutMe = ({ observer }) => {
     if (element) {
       observer.observe(element);
     }
-  // eslint-disable-next-line
+    // eslint-disable-next-line
   }, [element]);
 
   return (
@@ -25,14 +25,14 @@ const AboutMe = ({ observer }) => {
       <div className="aboutMe__right">
         <h1>Sobre Mí</h1>
         <p>
-          Hola me llamo Gustavo, soy estudiante de la universidad Rafael Landívar
+          Hello, my name is Gustavo, I am a student at Rafael Landívar University.
         </p>
         <p>
-          Inicié mi aprendizaje como programador en 2017. Tengo un especial interés en Desarrolo Web dominando mayormente Front-End, pero también puedo desempeñarme en Back-end. 
-          Actualmente he creado varios proyectos como hobbie y también como interés en aportar soluciones a problemas de la vida cotidiana-moderna, adquiriendo conocimientos en el camino.
+          I started my apprenticeship as a programmer in 2017. I have a special interest in Web Development, mostly dominating Front-End, but I can also work in Back-end.
+          Currently I have created several projects as a hobby and also as an interest in providing solutions to problems of everyday-modern life, acquiring knowledge along the way.
         </p>
         <p>
-          "Nunca pares de aprender"
+          "never stop learning"
         </p>
         <div className="aboutMe__right--country">
           <div className="aboutMe__right--country__flag" />

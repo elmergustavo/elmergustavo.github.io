@@ -147,19 +147,19 @@ const Header = ({ getObserver, onThemeChange }) => {
         </button>
         <ul className={`header__right--navigator ${isActiveMobile ? 'header__right--navigator--active' : ''}`}>
           <li className={isPage('about-me')}><Link to="/#/about-me" alt="About me section" onClick={() => changePage('about-me')}>
-            Sobre mí
+          About me
           </Link></li>
           <li className={isPage('projects')}><Link to="/#/projects" alt="My projects section" onClick={() => changePage('projects')}>
-          Proyectos
+          Projects
           </Link></li>
           <li className={isPage('skills')}><Link to="/#/skills" alt="My skills section" onClick={() => changePage('skills')}>
-            Habilidades
+          skills
           </Link></li>
           <li className={isPage('contact')}><Link to="/#/contact" alt="My contact section" onClick={() => changePage('contact')}>
-            Contacto
+          contact
           </Link></li>
           <div className="theme-switch">
-            <span>Modo claro/oscuro</span>
+            <span>Light/Dark Mode</span>
             <input type="checkbox" id="themeInput" checked={theme === 'dark'} onChange={(e) => setTheme(e.target.checked ? 'dark' : 'light')} />
             <label htmlFor="themeInput"></label>
           </div>
