@@ -23,7 +23,7 @@ const AboutMe = ({ observer }) => {
         </div>
       </div>
       <div className="aboutMe__right">
-        <h1>Sobre Mí</h1>
+        <h1>About me</h1>
         <p>
           Hello, my name is Gustavo, I am a student at Rafael Landívar University.
         </p>
