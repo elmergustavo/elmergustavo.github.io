@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.b63088cb.chunk.css",
-    "main.js": "/static/js/main.b4eb6b7a.chunk.js",
-    "main.js.map": "/static/js/main.b4eb6b7a.chunk.js.map",
+    "main.css": "/static/css/main.65150c5a.chunk.css",
+    "main.js": "/static/js/main.d8dc53e1.chunk.js",
+    "main.js.map": "/static/js/main.d8dc53e1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e8786ab5.js",
     "runtime-main.js.map": "/static/js/runtime-main.e8786ab5.js.map",
     "static/js/2.b9740b14.chunk.js": "/static/js/2.b9740b14.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.e77bdfb3.chunk.js": "/static/js/3.e77bdfb3.chunk.js",
     "static/js/3.e77bdfb3.chunk.js.map": "/static/js/3.e77bdfb3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.b63088cb.chunk.css.map": "/static/css/main.b63088cb.chunk.css.map",
+    "static/css/main.65150c5a.chunk.css.map": "/static/css/main.65150c5a.chunk.css.map",
     "static/js/2.b9740b14.chunk.js.LICENSE.txt": "/static/js/2.b9740b14.chunk.js.LICENSE.txt",
     "static/media/1.PNG": "/static/media/1.5643485e.PNG",
     "static/media/2.PNG": "/static/media/2.a4548db5.PNG",
@@ -24,6 +24,7 @@
     "static/media/canal.PNG": "/static/media/canal.30ae5cfa.PNG",
     "static/media/citas.PNG": "/static/media/citas.a50d7773.PNG",
     "static/media/el burralon.PNG": "/static/media/el burralon.0c0d9683.PNG",
+    "static/media/header.scss": "/static/media/favicon.7642f79a.png",
     "static/media/gitub.png": "/static/media/gitub.bf85ce05.png",
     "static/media/gusanito.PNG": "/static/media/gusanito.b393a128.PNG",
     "static/media/aboutMe.scss": "/static/media/gustavo.d3bf29c2.jpg",
@@ -39,7 +40,6 @@
     "static/media/python.png": "/static/media/python.2971f8ca.png",
     "static/media/reactjs.png": "/static/media/reactjs.daf2eecb.png",
     "static/media/ruby.png": "/static/media/ruby.e1092af4.png",
-    "static/media/header.scss": "/static/media/tavcode.6ce74d87.jpg",
     "static/media/tienda.PNG": "/static/media/tienda.75dd7898.PNG",
     "static/media/typescript.svg": "/static/media/typescript.a6305a73.svg",
     "static/media/xd.png": "/static/media/xd.a34f2814.png"
@@ -47,7 +47,7 @@
   "entrypoints": [
     "static/js/runtime-main.e8786ab5.js",
     "static/js/2.b9740b14.chunk.js",
-    "static/css/main.b63088cb.chunk.css",
-    "static/js/main.b4eb6b7a.chunk.js"
+    "static/css/main.65150c5a.chunk.css",
+    "static/js/main.d8dc53e1.chunk.js"
   ]
 }
