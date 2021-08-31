@@ -136,7 +136,7 @@ const Header = ({ getObserver, onThemeChange }) => {
       <div className="header__left">
         <div className="header__left--icon" />
         <div className="header__left--title">
-	      	Elmer Gustavo Pú
+	      	<a href="#" className="header__left--title">Elmer Gustavo Pú</a>
         </div>
       </div>
       <div className="header__right">
