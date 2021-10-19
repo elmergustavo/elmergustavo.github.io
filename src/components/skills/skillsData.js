@@ -9,40 +9,35 @@
 
 const skills = [
   {
+    name: 'Firebase',
+    image: require('../../assets/skills/firebase-logo.png').default,
+    description: 'Cloud Firestore, Autenticación, Cloud Storage',
+    year: 2021,
+  },
+  {
+    name: 'Figma',
+    image: require('../../assets/skills/logo-figma.svg').default,
+    description: 'user experience',
+    year: 2021,
+  },
+  {
     name: 'Java Develop',
     image: require('../../assets/skills/java.png').default,
     description: 'Desarrollador Java',
-    year: 2018,
+    year: 2017,
   },
-  {
-    name: 'Photoshop',
-    image: require('../../assets/skills/photoshop.png').default,
-    description: 'Diseño en fotografías.',
-    year: 2018,
-  },
-  {
-    name: 'Adobe Ilustreitor',
-    image: require('../../assets/skills/ilustreitor.png').default,
-    description: 'Imagenes con vectores.',
-    year: 2019,
-  },
-  {
-    name: 'Adobe XD',
-    image: require('../../assets/skills/xd.png').default,
-    description: 'Implementación de bocetos.',
-    year: 2020,
-  },
+ 
   {
     name: 'MariaDB',
     image: require('../../assets/skills/mariadb.png').default,
     description: 'Bases de datos Relacionales.',
-    year: 2020,
+    year: 2018,
   },
   {
     name: 'Apache',
     image: require('../../assets/skills/apache.png').default,
     description: 'El servidor HTTP Apache es un servidor web.',
-    year: 2020,
+    year: 2018,
   },
   {
     name: 'C++',
@@ -60,13 +55,13 @@ const skills = [
     name: 'Ruby',
     image: require('../../assets/skills/ruby.png').default,
     description: 'Desarrollador Ruby.',
-    year: 2019,
+    year: 2018,
   },
   {
     name: 'Python',
     image: require('../../assets/skills/python.png').default,
     description: 'Desarrollador Python.',
-    year: 2020,
+    year: 2019,
   },
   {
     name: 'MongoDB',
@@ -81,34 +76,28 @@ const skills = [
     year: 2019,
   },
   {
-    name: 'TypeScript',
-    image: require('../../assets/skills/typescript.svg').default,
-    description: 'Classes, generics, interfaces and types.',
-    year: 2019,
-  },
-  {
     name: 'ReactJS',
     image: require('../../assets/skills/reactjs.png').default,
     description: 'Hooks, components, states and routes.',
-    year: 2019,
+    year: 2020,
   },
   {
     name: 'NodeJS',
     image: require('../../assets/skills/nodejs.png').default,
     description: 'DiscordJS, ExpressJS, Jest and Mocha.',
-    year: 2019,
+    year: 2020,
   },
   {
     name: 'Visual Studio Code',
     image: require('../../assets/skills/vscode.png').default,
     description: 'Code editor.',
-    year: 2019,
+    year: 2018,
   },
   {
     name: 'Git',
     image: require('../../assets/skills/git.png').default,
     description: 'GitHub Actions, pull requests, brahches, pushes and commits.',
-    year: 2019,
+    year: 2018,
   },
   {
     name: 'MySQL',
@@ -126,25 +115,25 @@ const skills = [
     name: 'jQuery',
     image: require('../../assets/skills/jquery.png').default,
     description: 'DOM manipulation.',
-    year: 2018,
+    year: 2019,
   },
   {
     name: 'JavaScript',
     image: require('../../assets/skills/javascript.png').default,
     description: 'Local Storage, cookies, PWA, DOM, Intersection Observer and ES6.',
-    year: 2018,
+    year: 2019,
   },
   {
     name: 'CSS3',
     image: require('../../assets/skills/css3.png').default,
     description: 'Animations, responsive design and basic elements.',
-    year: 2017,
+    year: 2019,
   },
   {
     name: 'HTML5',
     image: require('../../assets/skills/html5.png').default,
     description: 'Canvas API, SEO and basic elements.',
-    year: 2017,
+    year: 2019,
   },
 ];
 

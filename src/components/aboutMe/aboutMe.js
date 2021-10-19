@@ -1,6 +1,7 @@
 import React from 'react';
 import './aboutMe.scss';
 
+
 const AboutMe = ({ observer }) => {
   const [element, setElement] = React.useState(null);
 
@@ -37,6 +38,13 @@ const AboutMe = ({ observer }) => {
         <div className="aboutMe__right--country">
           <div className="aboutMe__right--country__flag" />
           <span>Escuintla, Guatemala</span>
+        </div>
+        <div className="aboutMe__right--country">
+          <div className="Btn-currim">
+            <h3>
+              download curriculum
+            </h3>
+          </div>
         </div>
       </div>
     </section>

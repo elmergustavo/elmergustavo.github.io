@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import AboutMe from '../components/aboutMe/aboutMe';
 import Projects from '../components/projects/projects';
