@@ -40,11 +40,9 @@ const AboutMe = ({ observer }) => {
           <span>Escuintla, Guatemala</span>
         </div>
         <div className="aboutMe__right--country">
-          <div className="Btn-currim">
-            <h3>
-              download curriculum
-            </h3>
-          </div>
+         <a  type="submit" href="https://www.canva.com/design/DAEkwD8cHTM/27_z-OM9BfyDslj8SBRb0A/view?utm_content=DAEkwD8cHTM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelinkom" target="_blank">
+           <button className="Btn-currim">Descargar Curriculum</button>
+         </a>
         </div>
       </div>
     </section>

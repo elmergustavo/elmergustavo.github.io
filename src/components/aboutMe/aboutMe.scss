@@ -13,16 +13,14 @@
 
   .Btn-currim{
     background-color:rgb(26, 26, 104);
-    border-radius: 20px;
-    width: 50%;
+    border-radius: 15px;
+    width: 180px;
     height: 50px;
+    color: white;
+    size: 20px;
   }
 
-  h3{
-    color: rgb(255, 255, 255);
-    justify-content: center;
-    text-align: center;
-  }
+  
 
   @media (max-width: 767.98px) {
     height: auto;
