@@ -9,6 +9,28 @@
 
 const projects = [
 
+// nuevo proyecto Figma Juegos desarrollando por el equipo de discord
+
+{
+  image: require('../../assets/projects/juego.png').default,
+  category: 'Design',
+  name: 'Diseño Tienda de Juegos',
+  description: 'Un prototipo para el proyecto de una tienda de juegos',
+  date: 'Septiembre del 2021',
+  links: {
+    //'GitHub': 'https://github.com/elmergustavo/SistemaPuntoVenta'
+    'Web': 'https://www.figma.com/file/bjWLXqJxTbvHXc9cYmke4q/Untitled?node-id=0%3A1',
+  },
+  tags: [
+    'Figma',
+    'Design',
+    'Prototipos',
+    'Boceto'
+  ]
+},
+
+
+
 // nuevo proyecto Julio Sistema punto de venta Analisis y diseño II
 
 {
@@ -18,7 +40,7 @@ const projects = [
   description: 'Sistema Restaurante desarrollado en Java, Aplicando Patrones de diseños',
   date: 'Julio del 2021',
   links: {
-    'GitHub': 'https://github.com/elmergustavo/SistemaPuntoVenta',
+    'GitHub': 'https://github.com/elmergustavo/SistemaPuntoVenta'
     //'Web': 'https://elmergustavo.github.io/reactFormCitas/',
   },
   tags: [
@@ -26,12 +48,9 @@ const projects = [
     'Java',
     'design_patterns',
     'SOLID',
-    'MVC',
-  ],
+    'MVC'
+  ]
 },
-
-
-
 
 
 // nuevo proyecto Mayo Citas en react 2021
@@ -44,15 +63,15 @@ const projects = [
   date: 'Mayo del 2021',
   links: {
     'Code': 'https://github.com/elmergustavo/reactFormCitas',
-    'Web': 'https://elmergustavo.github.io/reactFormCitas/',
+    'Web': 'https://elmergustavo.github.io/reactFormCitas/'
   },
   tags: [
     'BackEnd',
     'Javascript',
     'Css',
     'HTML5',
-    'React',
-  ],
+    'React'
+  ]
 },
 
 
@@ -65,15 +84,15 @@ const projects = [
   date: 'Mayo del 2021',
   links: {
     'Code': 'https://github.com/TavCode/Pizza-Dev',
-    'Web': 'https://tavcode.github.io/Pizza-Dev/',
+    'Web': 'https://tavcode.github.io/Pizza-Dev/'
   },
   tags: [
     'FrontEnd',
     'Javascript',
     'Css',
     'HTML5',
-    'Pizza',
-  ],
+    'Pizza'
+  ]
 },
 
 // nuevo proyecto Mayo API DE POKEMON 2021
@@ -85,15 +104,15 @@ const projects = [
   date: 'Mayo del 2021',
   links: {
     'Code': 'https://github.com/elmergustavo/PokemonApi',
-    'Web': 'https://elmergustavo.github.io/PokemonApi/',
+    'Web': 'https://elmergustavo.github.io/PokemonApi/'
   },
   tags: [
     'FrontEnd',
     'Javascript',
     'Css',
     'HTML5',
-    'ApiPokemon',
-  ],
+    'ApiPokemon'
+  ]
 },
 
 // nuevo proyecto Abril cumple Dana 2021
@@ -105,15 +124,15 @@ const projects = [
     date: 'Abril del 2021',
     links: {
       'Code': 'https://github.com/elmergustavo/happy-Danita',
-      'Web': 'https://elmergustavo.github.io/happy-Danita/index.html',
+      'Web': 'https://elmergustavo.github.io/happy-Danita/index.html'
     },
     tags: [
       'FrontEnd',
       'Javascript',
       'Css',
       'HTML5',
-      'Gsap',
-    ],
+      'Gsap'
+    ]
   },
 
  // nuevo proyecto Marzo 2021
@@ -125,15 +144,15 @@ const projects = [
     date: 'Marzo del 2021',
     links: {
       'Code': 'https://github.com/TavCode/Clash-of-clan',
-      'Web': 'https://tavcode.github.io/Clash-of-clan/',
+      'Web': 'https://tavcode.github.io/Clash-of-clan/'
     },
     tags: [
       'FrontEnd',
       'Javascript',
       'Css',
       'HTML5',
-      'ClasOfclan',
-    ],
+      'ClasOfclan'
+    ]
   },
 
 
@@ -152,8 +171,8 @@ const projects = [
       'RustLang',
       'Interpreter',
       'Typechecker',
-      'Parser',
-    ],
+      'Parser'
+    ]
   },
 
   {
@@ -170,8 +189,8 @@ const projects = [
       'RustLang',
       'Interpreter',
       'Typechecker',
-      'Parser',
-    ],
+      'Parser'
+    ]
   },
 
   {
@@ -182,13 +201,13 @@ const projects = [
     date: '10 de Enero del 2021',
     links: {
       GitHub: 'https://github.com/elmergustavo/burralon sfsdfsñlfsdflsñldf ',
-      Web: 'https://elmergustavo.github.io/burralon/',
+      Web: 'https://elmergustavo.github.io/burralon/'
       
     },
     tags: [
       'RustLang',
-      'Meeting',
-    ],
+      'Meeting'
+    ]
   },
   {
     image: require('../../assets/projects/platzi.PNG').default,
@@ -197,7 +216,7 @@ const projects = [
     description: 'Es una plataforma muy interesante donde se aprende todo sobre tecnología',
     date: 'November of 2020',
     links: {
-      Web: 'https://platzi.com/p/elmer-gustavo/',
+      Web: 'https://platzi.com/p/elmer-gustavo/'
     },
     tags: [
       'BackEnd',
@@ -210,7 +229,7 @@ const projects = [
       'DeckGL',
       'OpenSourceControl',
       'SuperCollider'
-    ],
+    ]
   },
   {
     image: require('../../assets/projects/canal.PNG').default,
@@ -219,7 +238,7 @@ const projects = [
     description: 'En mi canal subo contenido de programación para principiantes como C++, Java',
     date: 'October of 2020',
     links: {
-      'YouTube': 'https://www.youtube.com/channel/UCzoC8FXE62AInx6V4bxrxBQ',
+      'YouTube': 'https://www.youtube.com/channel/UCzoC8FXE62AInx6V4bxrxBQ'
     },
     tags: [
       'BackEnd',
@@ -228,8 +247,8 @@ const projects = [
       'TypeScript',
       'DiscordJS',
       'Contribution',
-      'Refactor',
-    ],
+      'Refactor'
+    ]
   },
   {
     image: require('../../assets/projects/portafolio.PNG').default,
@@ -247,8 +266,8 @@ const projects = [
       'NodeJS',
       'CSS3',
       'HTML5',
-      'JavaScript',
-    ],
+      'JavaScript'
+    ]
   },
   {
     image: require('../../assets/projects/tienda.PNG').default,
@@ -257,15 +276,15 @@ const projects = [
     description: 'Página web, para compra y venta de Libros.',
     date: 'August of 2020',
     links: {
-      'GitHub': 'https://github.com/elmergustavo/prueba',
+      'GitHub': 'https://github.com/elmergustavo/prueba'
     },
     tags: [
       'BackEnd',
       'RustLang',
       'Interpreter',
       'Typechecker',
-      'Parser',
-    ],
+      'Parser'
+    ]
   },
   {
     image: require('../../assets/projects/gusanito.PNG').default,
@@ -274,16 +293,16 @@ const projects = [
     description: 'Este juego fue implementado en java. en el curso de estructura de datos I',
     date: 'Marzo del 2020',
     links: {
-      'GitHub': 'https://github.com/elmergustavo/Gusanito-SO',
+      'GitHub': 'https://github.com/elmergustavo/Gusanito-SO'
     },
     tags: [
       'BackEnd',
       'RustLang',
       'Interpreter',
       'Typechecker',
-      'Parser',
-    ],
-  },
+      'Parser'
+    ]
+  }
 
   
 ];
