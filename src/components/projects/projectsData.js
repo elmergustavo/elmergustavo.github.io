@@ -214,9 +214,9 @@ const projects = [
     category: 'FullStack - Contribution',
     name: 'Soy Estudiante de Platzi',
     description: 'Es una plataforma muy interesante donde se aprende todo sobre tecnología',
-    date: 'November of 2020',
+    date: 'Enero de 2020',
     links: {
-      Web: 'https://platzi.com/p/elmer-gustavo/'
+      Web: 'https://platzi.com/p/Tavcode/'
     },
     tags: [
       'BackEnd',

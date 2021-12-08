@@ -26,22 +26,21 @@ const AboutMe = ({ observer }) => {
       <div className="aboutMe__right">
         <h1>About me</h1>
         <p>
-          Hello, my name is Gustavo, I am a student at Rafael Landívar University.
+        Actualmente soy estudiante de la Universidad Rafael Landívar. Comencé mi aprendizaje como programador en 2017. Tengo un interés especial en el desarrollo web, dominando principalmente el Back-end, pero también puedo trabajar en Frontend.     . Actualmente he creado varios proyectos como hobby y también como interés en dar soluciones a problemas de la vida cotidiana moderna adquiriendo conocimientos en el camino y nunca parar de aprender. 
         </p>
         <p>
-          I started my apprenticeship as a programmer in 2017. I have a special interest in Web Development, mostly dominating Front-End, but I can also work in Back-end.
-          Currently I have created several projects as a hobby and also as an interest in providing solutions to problems of everyday-modern life, acquiring knowledge along the way.
+          
         </p>
         <p>
-          "never stop learning"
+          "Nunca pares de aprender"
         </p>
         <div className="aboutMe__right--country">
           <div className="aboutMe__right--country__flag" />
           <span>Escuintla, Guatemala</span>
         </div>
         <div className="aboutMe__right--country">
-         <a  type="submit" href="https://www.canva.com/design/DAEkwD8cHTM/27_z-OM9BfyDslj8SBRb0A/view?utm_content=DAEkwD8cHTM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelinkom" target="_blank">
-           <button className="Btn-currim">Descargar Curriculum</button>
+         <a  type="submit" href="https://drive.google.com/file/d/1Pj_uesOX65a7EjGEnb4H7QmgsHQTbhB0/view?usp=sharing" target="_blank">
+           <button className="Btn-currim">Descargar CV</button>
          </a>
         </div>
       </div>
