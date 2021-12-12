@@ -9,6 +9,29 @@
 
 const projects = [
 
+  // nuevo proyecto Con Vue js
+
+{
+  image: require('../../assets/projects/tweet.PNG').default,
+  category: 'FrontEnd',
+  name: 'Simulador de Twieets',
+  description: 'Una pequeña aplicacacón de tweests almacenando en el localStorage',
+  date: 'Diciembre del 2021',
+  links: {
+    'GitHub': 'https://github.com/elmergustavo/tweet-simulator',
+    'Web': 'https://tweets-simulator-gustavo.netlify.app/',
+  },
+  tags: [
+    'Frontend',
+    'Vue js',
+    'localstorage',
+    'bootstrap'
+  ]
+},
+
+
+
+
 // nuevo proyecto Figma Juegos desarrollando por el equipo de discord
 
 {
