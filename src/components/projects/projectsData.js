@@ -31,6 +31,26 @@ const projects = [
 
 
 
+  // Practicas de frontend mentor
+
+  {
+    image: require('../../assets/projects/frontend.png').default,
+    category: 'FrontEnd',
+    name: 'Frontend Mentor',
+    description: 'Practicas de frontendmentor.io, todas las practicas estaŕan en un repositorio de GitHub',
+    date: 'Noviembre del 2021',
+    links: {
+      'GitHub': 'https://github.com/elmergustavo/frontend-mentor',
+      'Web': 'https://elmergustavo.github.io/frontend-mentor/',
+    },
+    tags: [
+      'Frontend',
+      'Mentor',
+      'Frameworks'
+    ]
+  },
+
+
 
 // nuevo proyecto Figma Juegos desarrollando por el equipo de discord
 
