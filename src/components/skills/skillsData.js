@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Daniel Solarte Chaverra
+ * 
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -72,7 +72,7 @@ const skills = [
   {
     name: 'Linux',
     image: require('../../assets/skills/linux.png').default,
-    description: 'Arch Linux, Ubuntu.',
+    description: 'Ubuntu, Fedora 35.  ',
     year: 2019,
   },
   {
