@@ -45,7 +45,7 @@ const AboutMe = ({ observer }) => {
         <div className="aboutMe__right--country">
           <a
             type="submit"
-            href="https://drive.google.com/file/d/1Pj_uesOX65a7EjGEnb4H7QmgsHQTbhB0/view?usp=sharing"
+            href="https://drive.google.com/file/d/1s6xkI2G7Zcb8djVaBP0G5oLL1p9kLqi6/view?usp=sharing"
             target="_blank"
           >
             <button className="Btn-currim">Download CV</button>
