@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.15a79cbb.chunk.css",
-    "main.js": "/static/js/main.985f18b0.chunk.js",
-    "main.js.map": "/static/js/main.985f18b0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e8786ab5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e8786ab5.js.map",
+    "main.css": "/static/css/main.fb13e110.chunk.css",
+    "main.js": "/static/js/main.dad11ff5.chunk.js",
+    "main.js.map": "/static/js/main.dad11ff5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d747b813.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d747b813.js.map",
     "static/js/2.b9740b14.chunk.js": "/static/js/2.b9740b14.chunk.js",
     "static/js/2.b9740b14.chunk.js.map": "/static/js/2.b9740b14.chunk.js.map",
-    "static/js/3.e77bdfb3.chunk.js": "/static/js/3.e77bdfb3.chunk.js",
-    "static/js/3.e77bdfb3.chunk.js.map": "/static/js/3.e77bdfb3.chunk.js.map",
+    "static/js/3.0ef8ca8a.chunk.js": "/static/js/3.0ef8ca8a.chunk.js",
+    "static/js/3.0ef8ca8a.chunk.js.map": "/static/js/3.0ef8ca8a.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.15a79cbb.chunk.css.map": "/static/css/main.15a79cbb.chunk.css.map",
+    "static/css/main.fb13e110.chunk.css.map": "/static/css/main.fb13e110.chunk.css.map",
     "static/js/2.b9740b14.chunk.js.LICENSE.txt": "/static/js/2.b9740b14.chunk.js.LICENSE.txt",
     "static/media/1.PNG": "/static/media/1.5643485e.PNG",
     "static/media/2.PNG": "/static/media/2.a4548db5.PNG",
@@ -34,20 +34,20 @@
     "static/media/juego.png": "/static/media/juego.5f88256b.png",
     "static/media/logo-figma.svg": "/static/media/logo-figma.25abb591.svg",
     "static/media/mariadb.png": "/static/media/mariadb.92f19a57.png",
-    "static/media/platzi.PNG": "/static/media/platzi.ad4438ea.PNG",
+    "static/media/platzi.png": "/static/media/platzi.30235940.png",
     "static/media/portafolio.PNG": "/static/media/portafolio.04fe0bec.PNG",
     "static/media/programa.PNG": "/static/media/programa.eb627e75.PNG",
     "static/media/puntoVenta.PNG": "/static/media/puntoVenta.2fafbf2b.PNG",
     "static/media/python.png": "/static/media/python.2971f8ca.png",
     "static/media/reactjs.png": "/static/media/reactjs.daf2eecb.png",
     "static/media/ruby.png": "/static/media/ruby.e1092af4.png",
-    "static/media/tienda.PNG": "/static/media/tienda.75dd7898.PNG",
-    "static/media/tweet.PNG": "/static/media/tweet.bedd7389.PNG"
+    "static/media/tweet.PNG": "/static/media/tweet.bedd7389.PNG",
+    "static/media/web.PNG": "/static/media/web.9d735969.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.e8786ab5.js",
+    "static/js/runtime-main.d747b813.js",
     "static/js/2.b9740b14.chunk.js",
-    "static/css/main.15a79cbb.chunk.css",
-    "static/js/main.985f18b0.chunk.js"
+    "static/css/main.fb13e110.chunk.css",
+    "static/js/main.dad11ff5.chunk.js"
   ]
 }
