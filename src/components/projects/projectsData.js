@@ -9,13 +9,59 @@
 
 const projects = [
 
+   // nuevo proyecto FullStack MERN
+
+{
+  image: require('../../assets/projects/web.PNG').default,
+  category: 'FullStack - Contribution',
+  name: 'Task Manager',
+  description: 'An application to be able to manage tasks, creating projects where users can create their accounts and add collaborators by project to be able to keep a better control with the pending tasks, they can also create, edit, delete tasks, the project is made with an Api -rest with fullStack MERN technologies.',
+  date: 'March del 2022',
+  links: {
+    'GitHub - Frontend': 'https://github.com/url-classes/proyecto-grupal---frontend-tasksmern',
+    'GitHub - Backend': 'https://github.com/url-classes/proyecto-grupal---backend-tasksmern',
+    'Production': 'https://celadon-dragon-7a7e71.netlify.app/',
+  },
+  tags: [
+    'Frontend',
+    'Backend',
+    'localstorage',
+    'JWT',
+    'Api-rest', 
+    'authentication'
+  ]
+},
+
+ // New proyect Angular Spring boot
+
+ {
+  image: require('../../assets/projects/angular.png').default,
+  category: 'FullStack - Contribution',
+  name: 'Task Manager',
+  description: 'Project was created in the software engineering course II, creation of an api-rest created with Angular and Spring Boot, Client Modules, Invoice, Products, implementing authentication with JWT. the API was documented with swagger.',
+  date: 'March del 2022',
+  links: {
+    'GitHub - Frontend': 'https://github.com/elmergustavo/cliente-restaurant',
+    'GitHub - Backend': 'https://github.com/elmergustavo/api-rest-restaurant',
+  },
+  tags: [
+    'Frontend',
+    'Backend',
+    'Angular',
+    'JWT',
+    'Api-rest', 
+    'authentication'
+  ]
+},
+  
+
   // nuevo proyecto Con Vue js
 
 {
   image: require('../../assets/projects/tweet.PNG').default,
   category: 'FrontEnd',
   name: 'Simulador de Twieets',
-  description: 'Una pequeña aplicacacón de tweests almacenando en el localStorage',
+  description: 'A small application of tweets storing in the localStorage',
   date: 'Diciembre del 2021',
   links: {
     'GitHub': 'https://github.com/elmergustavo/tweet-simulator',
@@ -37,7 +83,7 @@ const projects = [
     image: require('../../assets/projects/frontend.png').default,
     category: 'FrontEnd',
     name: 'Frontend Mentor',
-    description: 'Practicas de frontendmentor.io, todas las practicas estaŕan en un repositorio de GitHub',
+    description: 'frontendmentor.io labs, all labs will be in a GitHub repository',
     date: 'Noviembre del 2021',
     links: {
       'GitHub': 'https://github.com/elmergustavo/frontend-mentor',
@@ -58,7 +104,7 @@ const projects = [
   image: require('../../assets/projects/juego.png').default,
   category: 'Design',
   name: 'Diseño Tienda de Juegos',
-  description: 'Un prototipo para el proyecto de una tienda de juegos',
+  description: 'A prototype for a game store project',
   date: 'Septiembre del 2021',
   links: {
     //'GitHub': 'https://github.com/elmergustavo/SistemaPuntoVenta'
@@ -80,7 +126,7 @@ const projects = [
   image: require('../../assets/projects/puntoVenta.PNG').default,
   category: 'BackEnd',
   name: 'Sistema punto de Venta',
-  description: 'Sistema Restaurante desarrollado en Java, Aplicando Patrones de diseños',
+  description: 'Restaurant System developed in Java, Applying Design Patterns',
   date: 'Julio del 2021',
   links: {
     'GitHub': 'https://github.com/elmergustavo/SistemaPuntoVenta'
@@ -102,7 +148,7 @@ const projects = [
   image: require('../../assets/projects/citas.PNG').default,
   category: 'BackEnd',
   name: 'Formulario de citas',
-  description: 'proyecto en React con formularios y el uso de localStorage.',
+  description: 'project in React with forms and the use of localStorage.',
   date: 'Mayo del 2021',
   links: {
     'Code': 'https://github.com/elmergustavo/reactFormCitas',
@@ -123,7 +169,7 @@ const projects = [
   image: require('../../assets/projects/3.PNG').default,
   category: 'FrontEnd',
   name: 'Pagina pizza',
-  description: 'Pagina web de una pizzería, desarrollado con HTML5, CSS Y Javascript',
+  description: 'Website of a pizzeria, developed with HTML5, CSS and Javascript',
   date: 'Mayo del 2021',
   links: {
     'Code': 'https://github.com/TavCode/Pizza-Dev',
@@ -143,7 +189,7 @@ const projects = [
   image: require('../../assets/projects/2.PNG').default,
   category: 'BackEnd',
   name: 'API de Pokemón',
-  description: 'Conectado con la api oficial de pokemon, utilizando ReactJs',
+  description: 'Connected with the official pokemon api, using ReactJs',
   date: 'Mayo del 2021',
   links: {
     'Code': 'https://github.com/elmergustavo/PokemonApi',
@@ -253,25 +299,21 @@ const projects = [
     ]
   },
   {
-    image: require('../../assets/projects/platzi.PNG').default,
+    image: require('../../assets/projects/platzi.png').default,
     category: 'FullStack - Contribution',
-    name: 'Soy Estudiante de Platzi',
-    description: 'Es una plataforma muy interesante donde se aprende todo sobre tecnología',
+    name: 'I am a student of Platzi',
+    description: 'I am a Platzi student, I currently have several courses completed, I always keep in constant learning',
     date: 'Enero de 2020',
     links: {
-      Web: 'https://platzi.com/p/Tavcode/'
+      Profile: 'https://platzi.com/p/TavoCode/'
     },
     tags: [
       'BackEnd',
       'NodeJS',
       'JavaScript',
       'TypeScript',
-      'Contribution',
-      'ReactJS',
-      'OpenSourceMap',
-      'DeckGL',
-      'OpenSourceControl',
-      'SuperCollider'
+      'Java',
+      'Python'
     ]
   },
   {
@@ -310,23 +352,6 @@ const projects = [
       'CSS3',
       'HTML5',
       'JavaScript'
-    ]
-  },
-  {
-    image: require('../../assets/projects/tienda.PNG').default,
-    category: 'BackEnd',
-    name: 'Página web, Tienda de Libros',
-    description: 'Página web, para compra y venta de Libros.',
-    date: 'August of 2020',
-    links: {
-      'GitHub': 'https://github.com/elmergustavo/prueba'
-    },
-    tags: [
-      'BackEnd',
-      'RustLang',
-      'Interpreter',
-      'Typechecker',
-      'Parser'
     ]
   },
   {

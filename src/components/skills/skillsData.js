@@ -81,12 +81,12 @@ const skills = [
     description: 'Hooks, components, states and routes.',
     year: 2020,
   },
-  // {
-  //   name: 'NodeJS',
-  //   image: require('../../assets/skills/nodejs.png').default,
-  //   description: 'DiscordJS, ExpressJS, Jest and Mocha.',
-  //   year: 2020,
-  // },
+  {
+    name: 'NodeJS',
+    image: require('../../assets/skills/nodejs.png').default,
+    description: 'DiscordJS, ExpressJS, Jest and Mocha.',
+    year: 2021,
+  },
   {
     name: 'Visual Studio Code',
     image: require('../../assets/skills/vscode.png').default,
